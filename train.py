@@ -118,9 +118,6 @@ def train_model(epochs=10):
               f"Val Loss: {avg_val_loss:.4f} "
               f"RMSE: {rmse:.4f}")
 
-        # ------------------------
-        # Always ask to save after every epoch
-        # ------------------------
         
         if avg_val_loss < best_val_loss:
             best_val_loss = avg_val_loss
