@@ -107,9 +107,7 @@ This helps assess whether the model focuses on relevant features (e.g., spiral a
 ### 5.3 Visualization
 Example Grad-CAM visualization:  
 
-
-
-![gradcam_output](https://github.com/user-attachments/assets/4e33bbe0-3ce7-4a04-a647-46fbfa182fe8)
+![gradcam_output](https://github.com/user-attachments/assets/4e33bbe0-3ce7-4a04-a647-46fbfa182fe8)   ![193219](https://github.com/user-attachments/assets/2a0dea50-c9c4-449b-a5dd-bd63b398f90e)
 
 
 This shows which parts of the galaxy image the model relied on for its classification.  
