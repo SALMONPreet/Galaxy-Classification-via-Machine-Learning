@@ -54,7 +54,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model = get_resnet18(num_classes=37, pretrained=False).to(device)
 
 try:
-    # Safe loading for old-style weights
+    
     import numpy as np
     with torch.serialization.safe_globals([np._core.multiarray.scalar]):
         checkpoint = torch.load(checkpoint_path, map_location=device, weights_only=False)
@@ -79,7 +79,7 @@ with torch.no_grad():
     for images, galaxy_ids in test_loader:
         images = images.to(device)
         outputs = model(images)
-        #outputs = F.softmax(outputs, dim=1)  # <-- Apply softmax to get valid probabilities
+        #outputs = F.softmax(outputs, dim=1)  
         outputs = np.clip(outputs, 0, 1)
         outputs = outputs.cpu().numpy()
         for gid, probs in zip(galaxy_ids, outputs):
