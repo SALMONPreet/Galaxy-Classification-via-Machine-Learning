@@ -133,9 +133,9 @@ This helps assess whether the model focuses on relevant features (e.g., spiral a
 ## 5. Results
 
 ### 5.1 Training Performance
-- Training Loss (best): `xx.xx`  
-- Validation Loss (best): `xx.xx`  
-- RMSE (best): `xx.xx`  
+- Training Loss (best): `0.0104`  
+- Validation Loss (best): `0.0095`  
+- RMSE (best): `0.0977`  
 
 *(Exact values depend on dataset subset and number of epochs.)*  
 
@@ -172,8 +172,13 @@ This shows which parts of the galaxy image the model relied on for its classific
 
 ## 8. References
 - [Galaxy Zoo Data Release](https://data.galaxyzoo.org/)  
-- He et al., *Deep Residual Learning for Image Recognition*, CVPR 2016  
-- Selvaraju et al., *Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization*, ICCV 2017  
+- [Galaxy Zoo Challenge, Kaggle.](https://www.kaggle.com/c/galaxy-zoo-the-galaxy-challenge/)
+- Willett, K.W., Lintott, C.J., Bamford, S.P., Masters, K.L., Simmons, B.D., Casteels, K.R., Edmondson, E.M., Fortson, L.F., Kaviraj, S., Keel, W.C. and Melvin, T., 2013. Galaxy Zoo 2: detailed morphological classifications for 304 122 galaxies from the Sloan Digital Sky Survey. Monthly Notices of the Royal Astronomical Society, 435(4), pp.2835-2860.
+- Hubble, E.P., 1979. Extra-galactic nebulae. In A Source Book in Astronomy and Astrophysics, 1900–1975 (pp. 716-724). Harvard University Press.
+-	Chou, F.C., 2014. Galaxy Zoo Challenge: Classify Galaxy Morphologies from Images.
+- He, K., Zhang, X., Ren, S. and Sun, J., 2016. Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 770-778).  
+- De DIego, J.A., Nadolny, J., Bongiovanni, Á., Cepa, J., Pović, M., García, A.M.P., Torres, C.P.P., Lara-López, M.A., Cerviño, M., Martínez, R.P. and Alfaro, E.J., 2020. Galaxy classification: deep learning on the OTELO and COSMOS databases. Astronomy & Astrophysics, 638, p.A134.
+- Selvaraju, R.R., Cogswell, M., Das, A., Vedantam, R., Parikh, D. and Batra, D., 2017. Grad-cam: Visual explanations from deep networks via gradient-based localization. In Proceedings of the IEEE international conference on computer vision (pp. 618-626).  
 
 ---
 
