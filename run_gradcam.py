@@ -20,7 +20,7 @@ checkpoint_path = "best_model.pth"
 model = get_resnet18(num_classes=37, pretrained=False).to(device)
 
 try:
-    # Safe loading for old-style checkpoints
+   
     with torch.serialization.safe_globals([np._core.multiarray.scalar]):
         checkpoint = torch.load(checkpoint_path, map_location=device, weights_only=False)
 
@@ -38,7 +38,7 @@ except Exception as e:
 model.eval()
 
 # -----------------------------
-# 3. Set the path to a sample image
+# 2. Set the path to a sample image
 # -----------------------------
 
 sample_galaxy_id = input("Enter GalaxyID : ").strip()
@@ -49,7 +49,7 @@ if not os.path.exists(image_path):
 
 
 # -----------------------------
-# 4. Run Grad-CAM
+# 3. Run Grad-CAM
 # -----------------------------
 visualize_gradcam(model, image_path, target_class=None, save_path="gradcam_output.jpg")
 print(f"Grad-CAM saved to gradcam_output.jpg for GalaxyID {sample_galaxy_id}")
