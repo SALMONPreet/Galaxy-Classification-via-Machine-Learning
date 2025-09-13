@@ -88,7 +88,6 @@ def visualize_gradcam(model, img_path, target_class=None, save_path="gradcam_res
     gradcam = GradCAM(model, target_layer)
     cam_map = gradcam.generate(input_tensor, target_class=target_class)
 
-    # 🔵 Invert heatmap values before applying colormap (blue = high, red = low)
     heatmap = cv2.applyColorMap(np.uint8(255 * (1.0 - cam_map)), cv2.COLORMAP_JET)
     heatmap = np.float32(heatmap) / 255
 
