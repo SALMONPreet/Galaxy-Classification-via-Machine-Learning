@@ -1,0 +1,39 @@
+| Class | Question                                                                   | Response         |
+| ----- | -------------------------------------------------------------------------- | ---------------- |
+| 1     | Is the galaxy simply smooth and rounded, with no sign of features or disk? | smooth           |
+| 2     | Is the galaxy simply smooth and rounded, with no sign of features or disk? | features or disk |
+| 3     | Is the galaxy simply smooth and rounded, with no sign of features or disk? | star or artifact |
+| 4     | Could this be a disk viewed edge-on?                                       | yes              |
+| 5     | Could this be a disk viewed edge-on?                                       | no               |
+| 6     | Is there a sign of a bar feature through the centre of the galaxy?         | yes              |
+| 7     | Is there a sign of a bar feature through the centre of the galaxy?         | no               |
+| 8     | Is there any sign of a spiral arm pattern?                                 | yes              |
+| 9     | Is there any sign of a spiral arm pattern?                                 | no               |
+| 10    | How prominent is the central bulge, compared with the rest of the galaxy?  | no bulge         |
+| 11    | How prominent is the central bulge, compared with the rest of the galaxy?  | just noticeable  |
+| 12    | How prominent is the central bulge, compared with the rest of the galaxy?  | obvious          |
+| 13    | How prominent is the central bulge, compared with the rest of the galaxy?  | dominant         |
+| 14    | Is there anything odd?                                                     | yes              |
+| 15    | Is there anything odd?                                                     | no               |
+| 16    | How rounded is it?                                                         | completely round |
+| 17    | How rounded is it?                                                         | in between       |
+| 18    | How rounded is it?                                                         | cigar-shaped     |
+| 19    | Is the odd feature a ring, or is the galaxy disturbed or irregular?        | ring             |
+| 20    | Is the odd feature a ring, or is the galaxy disturbed or irregular?        | lens or arc      |
+| 21    | Is the odd feature a ring, or is the galaxy disturbed or irregular?        | disturbed        |
+| 22    | Is the odd feature a ring, or is the galaxy disturbed or irregular?        | irregular        |
+| 23    | Is the odd feature a ring, or is the galaxy disturbed or irregular?        | other            |
+| 24    | Is the odd feature a ring, or is the galaxy disturbed or irregular?        | merger           |
+| 25    | Is the odd feature a ring, or is the galaxy disturbed or irregular?        | dust lane        |
+| 26    | Does the galaxy have a rounded bulge at its centre? If so, what shape?     | rounded          |
+| 27    | Does the galaxy have a rounded bulge at its centre? If so, what shape?     | boxy             |
+| 28    | Does the galaxy have a rounded bulge at its centre? If so, what shape?     | no bulge         |
+| 29    | How tightly wound do the spiral arms appear?                               | tight            |
+| 30    | How tightly wound do the spiral arms appear?                               | medium           |
+| 31    | How tightly wound do the spiral arms appear?                               | loose            |
+| 32    | How many spiral arms are there?                                            | 1                |
+| 33    | How many spiral arms are there?                                            | 2                |
+| 34    | How many spiral arms are there?                                            | 3                |
+| 35    | How many spiral arms are there?                                            | 4                |
+| 36    | How many spiral arms are there?                                            | more than four   |
+| 37    | How many spiral arms are there?                                            | can’t tell       |

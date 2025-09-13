@@ -1,0 +1,183 @@
+12/07/2025  2:38 hrs
+(first 5000 images, 5 epoch)
+Epoch 1/5 Train Loss: 0.0251 Val Loss: 0.0180 RMSE: 0.1342
+Epoch 2/5 Train Loss: 0.0179 Val Loss: 0.0209 RMSE: 0.1447
+Epoch 3/5 Train Loss: 0.0162 Val Loss: 0.0158 RMSE: 0.1260
+Epoch 4/5 Train Loss: 0.0157 Val Loss: 0.0194 RMSE: 0.1398
+Epoch 5/5 Train Loss: 0.0153 Val Loss: 0.0138 RMSE: 0.1177
+Training complete. Best val loss: 0.4419435728341341
+
+
+12/07/2025  11:29 hrs
+(first 5000 images, 5 epoch)
+Epoch 1/5 Train Loss: 0.0261 Val Loss: 0.0212 RMSE: 0.1456
+Epoch 2/5 Train Loss: 0.0185 Val Loss: 0.0186 RMSE: 0.1366
+Epoch 3/5 Train Loss: 0.0166 Val Loss: 0.0156 RMSE: 0.1250
+Epoch 4/5 Train Loss: 0.0160 Val Loss: 0.0146 RMSE: 0.1211
+Epoch 5/5 Train Loss: 0.0155 Val Loss: 0.0164 RMSE: 0.1282
+Training complete. Best val loss: 0.46840422693639994
+
+
+12/07/2025  11:55 hrs
+(Random 5000 images, 5 epoch)
+Epoch 1/5 Train Loss: 0.0263 Val Loss: 0.0173 RMSE: 0.1321
+Epoch 2/5 Train Loss: 0.0185 Val Loss: 0.0177 RMSE: 0.1334
+Epoch 3/5 Train Loss: 0.0179 Val Loss: 0.0153 RMSE: 0.1239
+Epoch 4/5 Train Loss: 0.0160 Val Loss: 0.0155 RMSE: 0.1251
+Epoch 5/5 Train Loss: 0.0154 Val Loss: 0.0144 RMSE: 0.1201
+Training complete. Best val loss: 0.4604658782482147
+
+
+12/07/2025  13:23 hrs
+(Random 5000 images, 10 epoch)
+Epoch 1/10 Train Loss: 0.0260 Val Loss: 0.0193 RMSE: 0.1392
+Epoch 2/10 Train Loss: 0.0185 Val Loss: 0.0162 RMSE: 0.1272
+Epoch 3/10 Train Loss: 0.0173 Val Loss: 0.0162 RMSE: 0.1273
+Epoch 4/10 Train Loss: 0.0164 Val Loss: 0.0147 RMSE: 0.1215
+Epoch 5/10 Train Loss: 0.0158 Val Loss: 0.0145 RMSE: 0.1204
+Epoch 6/10 Train Loss: 0.0151 Val Loss: 0.0123 RMSE: 0.1111
+Epoch 7/10 Train Loss: 0.0146 Val Loss: 0.0164 RMSE: 0.1283
+Epoch 8/10 Train Loss: 0.0141 Val Loss: 0.0129 RMSE: 0.1135
+Epoch 9/10 Train Loss: 0.0138 Val Loss: 0.0122 RMSE: 0.1105
+Epoch 10/10 Train Loss: 0.0135 Val Loss: 0.0141 RMSE: 0.1190
+Training complete. Best val loss: 0.3897209567949176
+
+
+12/07/2025   
+Loaded previous model weights, but no previous metrics found. Starting fresh metrics...
+Epoch 1/5 Train Loss: 0.0129 Val Loss: 0.0114 RMSE: 0.1066
+Saved new best model at epoch 1
+Epoch 2/5 Train Loss: 0.0124 Val Loss: 0.0121 RMSE: 0.1101
+Epoch 3/5 Train Loss: 0.0124 Val Loss: 0.0118 RMSE: 0.1088
+Epoch 4/5 Train Loss: 0.0119 Val Loss: 0.0115 RMSE: 0.1073
+Epoch 5/5 Train Loss: 0.0115 Val Loss: 0.0109 RMSE: 0.1049
+Saved new best model at epoch 5
+Training complete.
+Best val loss: 0.0109 at epoch 5
+Corresponding Train Loss: 0.0115, RMSE: 0.1049
+
+
+12/07/2025 17:04 hrs
+Loaded checkpoint. Previous best val_loss: 0.027736905962228775, RMSE: 0.16654400527477264
+Epoch 1/10 Train Loss: 0.0241 Val Loss: 0.0200 RMSE: 0.1419
+Saved new best model at epoch 1
+Epoch 2/10 Train Loss: 0.0185 Val Loss: 0.0169 RMSE: 0.1305
+Saved new best model at epoch 2
+Epoch 3/10 Train Loss: 0.0174 Val Loss: 0.0168 RMSE: 0.1296
+Saved new best model at epoch 3
+Epoch 4/10 Train Loss: 0.0175 Val Loss: 0.0167 RMSE: 0.1296
+Saved new best model at epoch 4
+Epoch 5/10 Train Loss: 0.0159 Val Loss: 0.0156 RMSE: 0.1251
+Saved new best model at epoch 5
+Epoch 6/10 Train Loss: 0.0155 Val Loss: 0.0156 RMSE: 0.1250
+Saved new best model at epoch 6
+Epoch 7/10 Train Loss: 0.0150 Val Loss: 0.0134 RMSE: 0.1162
+Saved new best model at epoch 7
+Epoch 8/10 Train Loss: 0.0148 Val Loss: 0.0139 RMSE: 0.1185
+Epoch 9/10 Train Loss: 0.0144 Val Loss: 0.0152 RMSE: 0.1241
+Epoch 10/10 Train Loss: 0.0137 Val Loss: 0.0130 RMSE: 0.1146
+Saved new best model at epoch 10
+Training complete. Best val loss: 0.013017759280046448
+
+
+12/07/2025 17:55 hrs
+Loaded checkpoint. Previous best val_loss: 0.013017759280046448, RMSE: 0.11461655795574188
+Epoch 1/10 Train Loss: 0.0151 Val Loss: 0.0147 RMSE: 0.1210
+Epoch 2/10 Train Loss: 0.0147 Val Loss: 0.0133 RMSE: 0.1155
+Epoch 3/10 Train Loss: 0.0142 Val Loss: 0.0125 RMSE: 0.1119
+Saved new best model at epoch 3
+Epoch 4/10 Train Loss: 0.0139 Val Loss: 0.0124 RMSE: 0.1110
+Saved new best model at epoch 4
+Epoch 5/10 Train Loss: 0.0135 Val Loss: 0.0127 RMSE: 0.1125
+Epoch 6/10 Train Loss: 0.0133 Val Loss: 0.0120 RMSE: 0.1093
+Saved new best model at epoch 6
+Epoch 7/10 Train Loss: 0.0132 Val Loss: 0.0117 RMSE: 0.1079
+Saved new best model at epoch 7
+Epoch 8/10 Train Loss: 0.0129 Val Loss: 0.0124 RMSE: 0.1112
+Epoch 9/10 Train Loss: 0.0127 Val Loss: 0.0121 RMSE: 0.1096
+Epoch 10/10 Train Loss: 0.0121 Val Loss: 0.0116 RMSE: 0.1076
+Saved new best model at epoch 10
+Training complete. Best val loss: 0.011572001152671874
+
+
+12/07/2025 19:34 hrs
+Loaded checkpoint. Previous best val_loss: 0.011572001152671874, RMSE: 0.10757752507925034
+Epoch 1/20 Train Loss: 0.0133 Val Loss: 0.0115 RMSE: 0.1073
+Saved new best model at epoch 1
+Epoch 2/20 Train Loss: 0.0127 Val Loss: 0.0113 RMSE: 0.1061
+Saved new best model at epoch 2
+Epoch 3/20 Train Loss: 0.0125 Val Loss: 0.0104 RMSE: 0.1020
+Saved new best model at epoch 3
+Epoch 4/20 Train Loss: 0.0122 Val Loss: 0.0109 RMSE: 0.1044
+Epoch 5/20 Train Loss: 0.0120 Val Loss: 0.0113 RMSE: 0.1063
+Epoch 6/20 Train Loss: 0.0116 Val Loss: 0.0111 RMSE: 0.1052
+Epoch 7/20 Train Loss: 0.0116 Val Loss: 0.0106 RMSE: 0.1031
+Epoch 8/20 Train Loss: 0.0114 Val Loss: 0.0112 RMSE: 0.1060
+Epoch 9/20 Train Loss: 0.0111 Val Loss: 0.0112 RMSE: 0.1056
+Epoch 10/20 Train Loss: 0.0108 Val Loss: 0.0121 RMSE: 0.1103
+Epoch 11/20 Train Loss: 0.0109 Val Loss: 0.0104 RMSE: 0.1021
+Saved new best model at epoch 11
+Epoch 12/20 Train Loss: 0.0106 Val Loss: 0.0109 RMSE: 0.1047
+Epoch 13/20 Train Loss: 0.0105 Val Loss: 0.0108 RMSE: 0.1040
+Epoch 14/20 Train Loss: 0.0103 Val Loss: 0.0130 RMSE: 0.1137
+Epoch 15/20 Train Loss: 0.0103 Val Loss: 0.0105 RMSE: 0.1027
+Epoch 16/20 Train Loss: 0.0101 Val Loss: 0.0107 RMSE: 0.1035
+Epoch 17/20 Train Loss: 0.0102 Val Loss: 0.0111 RMSE: 0.1055
+Epoch 18/20 Train Loss: 0.0099 Val Loss: 0.0110 RMSE: 0.1047
+Epoch 19/20 Train Loss: 0.0099 Val Loss: 0.0106 RMSE: 0.1030
+Epoch 20/20 Train Loss: 0.0097 Val Loss: 0.0101 RMSE: 0.1007
+Saved new best model at epoch 20
+Training complete. Best val loss: 0.010123866581125185
+
+
+12/07/2025 21:02 hrs
+Loaded checkpoint. Previous best val_loss: 0.010123866581125185, RMSE: 0.10072115063667297
+Epoch 1/20 Train Loss: 0.0122 Val Loss: 0.0104 RMSE: 0.1017
+Epoch 2/20 Train Loss: 0.0115 Val Loss: 0.0103 RMSE: 0.1018
+Epoch 3/20 Train Loss: 0.0113 Val Loss: 0.0109 RMSE: 0.1047
+Epoch 4/20 Train Loss: 0.0109 Val Loss: 0.0102 RMSE: 0.1012
+Epoch 5/20 Train Loss: 0.0108 Val Loss: 0.0099 RMSE: 0.0999
+Saved new best model at epoch 5
+Epoch 6/20 Train Loss: 0.0105 Val Loss: 0.0097 RMSE: 0.0989
+Saved new best model at epoch 6
+Epoch 7/20 Train Loss: 0.0105 Val Loss: 0.0107 RMSE: 0.1039
+Epoch 8/20 Train Loss: 0.0103 Val Loss: 0.0099 RMSE: 0.0995
+Epoch 9/20 Train Loss: 0.0102 Val Loss: 0.0101 RMSE: 0.1007
+Epoch 10/20 Train Loss: 0.0100 Val Loss: 0.0099 RMSE: 0.0996
+Epoch 11/20 Train Loss: 0.0098 Val Loss: 0.0097 RMSE: 0.0990
+Epoch 12/20 Train Loss: 0.0095 Val Loss: 0.0102 RMSE: 0.1013
+Epoch 13/20 Train Loss: 0.0096 Val Loss: 0.0100 RMSE: 0.1002
+Epoch 14/20 Train Loss: 0.0095 Val Loss: 0.0103 RMSE: 0.1020
+Epoch 15/20 Train Loss: 0.0092 Val Loss: 0.0112 RMSE: 0.1061
+Epoch 16/20 Train Loss: 0.0091 Val Loss: 0.0106 RMSE: 0.1032
+Epoch 17/20 Train Loss: 0.0092 Val Loss: 0.0103 RMSE: 0.1017
+Epoch 18/20 Train Loss: 0.0090 Val Loss: 0.0099 RMSE: 0.1002
+Epoch 19/20 Train Loss: 0.0090 Val Loss: 0.0103 RMSE: 0.1021
+Epoch 20/20 Train Loss: 0.0087 Val Loss: 0.0098 RMSE: 0.0997
+Training complete. Best val loss: 0.009693734624306671
+
+
+12/07/2025 21:53 hrs
+(Random 10000 images)
+Loaded checkpoint. Previous best val_loss: 0.009693734624306671, RMSE: 0.09889750927686691
+Epoch 1/5 Train Loss: 0.0117 Val Loss: 0.0098 RMSE: 0.0992
+Epoch 2/5 Train Loss: 0.0112 Val Loss: 0.0097 RMSE: 0.0985
+Saved new best model at epoch 2
+Epoch 3/5 Train Loss: 0.0110 Val Loss: 0.0100 RMSE: 0.1001
+Epoch 4/5 Train Loss: 0.0109 Val Loss: 0.0101 RMSE: 0.1008
+Epoch 5/5 Train Loss: 0.0105 Val Loss: 0.0098 RMSE: 0.0993
+Training complete. Best val loss: 0.009693016601164662
+
+
+13/07/2025 12:33 hrs
+(Random 5000 images)
+Loaded checkpoint. Previous best val_loss: 0.009899549346300773, RMSE: 0.09946148842573166
+Epoch 1/5 Train Loss: 0.0113 Val Loss: 0.0102 RMSE: 0.1008
+Epoch 2/5 Train Loss: 0.0110 Val Loss: 0.0100 RMSE: 0.1001
+Epoch 3/5 Train Loss: 0.0106 Val Loss: 0.0096 RMSE: 0.0983
+Saved model at epoch 3
+Epoch 4/5 Train Loss: 0.0104 Val Loss: 0.0095 RMSE: 0.0977
+Saved model at epoch 4
+Epoch 5/5 Train Loss: 0.0100 Val Loss: 0.0099 RMSE: 0.0996
+Training complete. Best val loss: 0.009537437072140165
+Validation predictions saved to val_predictions_best_epoch.csv
