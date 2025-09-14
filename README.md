@@ -1,5 +1,5 @@
 
-![mlgc - Made with PosterMyWall](https://github.com/user-attachments/assets/3acb9947-ab10-4c69-9a59-a82e15f244c7)
+![mlgc](https://github.com/user-attachments/assets/3acb9947-ab10-4c69-9a59-a82e15f244c7)
 
 # 🌌 Galaxy Classifier
 
