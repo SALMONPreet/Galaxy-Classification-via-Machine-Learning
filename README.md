@@ -31,45 +31,45 @@ We also implement **Grad-CAM visualizations** to interpret model predictions and
 - These are **probabilistic labels**, meaning each output is a probability rather than a hard classification.  
 - Training is therefore treated as a **regression problem** using Mean Squared Error (MSE) loss.  
   
-| Class | Question                                                                   | Response         |
-| ----- | -------------------------------------------------------------------------- | ---------------- |
-| 1     | Is the galaxy simply smooth and rounded, with no sign of features or disk? | smooth           |
-| 2     | Is the galaxy simply smooth and rounded, with no sign of features or disk? | features or disk |
-| 3     | Is the galaxy simply smooth and rounded, with no sign of features or disk? | star or artifact |
-| 4     | Could this be a disk viewed edge-on?                                       | yes              |
-| 5     | Could this be a disk viewed edge-on?                                       | no               |
-| 6     | Is there a sign of a bar feature through the centre of the galaxy?         | yes              |
-| 7     | Is there a sign of a bar feature through the centre of the galaxy?         | no               |
-| 8     | Is there any sign of a spiral arm pattern?                                 | yes              |
-| 9     | Is there any sign of a spiral arm pattern?                                 | no               |
-| 10    | How prominent is the central bulge, compared with the rest of the galaxy?  | no bulge         |
-| 11    | How prominent is the central bulge, compared with the rest of the galaxy?  | just noticeable  |
-| 12    | How prominent is the central bulge, compared with the rest of the galaxy?  | obvious          |
-| 13    | How prominent is the central bulge, compared with the rest of the galaxy?  | dominant         |
-| 14    | Is there anything odd?                                                     | yes              |
-| 15    | Is there anything odd?                                                     | no               |
-| 16    | How rounded is it?                                                         | completely round |
-| 17    | How rounded is it?                                                         | in between       |
-| 18    | How rounded is it?                                                         | cigar-shaped     |
-| 19    | Is the odd feature a ring, or is the galaxy disturbed or irregular?        | ring             |
-| 20    | Is the odd feature a ring, or is the galaxy disturbed or irregular?        | lens or arc      |
-| 21    | Is the odd feature a ring, or is the galaxy disturbed or irregular?        | disturbed        |
-| 22    | Is the odd feature a ring, or is the galaxy disturbed or irregular?        | irregular        |
-| 23    | Is the odd feature a ring, or is the galaxy disturbed or irregular?        | other            |
-| 24    | Is the odd feature a ring, or is the galaxy disturbed or irregular?        | merger           |
-| 25    | Is the odd feature a ring, or is the galaxy disturbed or irregular?        | dust lane        |
-| 26    | Does the galaxy have a rounded bulge at its centre? If so, what shape?     | rounded          |
-| 27    | Does the galaxy have a rounded bulge at its centre? If so, what shape?     | boxy             |
-| 28    | Does the galaxy have a rounded bulge at its centre? If so, what shape?     | no bulge         |
-| 29    | How tightly wound do the spiral arms appear?                               | tight            |
-| 30    | How tightly wound do the spiral arms appear?                               | medium           |
-| 31    | How tightly wound do the spiral arms appear?                               | loose            |
-| 32    | How many spiral arms are there?                                            | 1                |
-| 33    | How many spiral arms are there?                                            | 2                |
-| 34    | How many spiral arms are there?                                            | 3                |
-| 35    | How many spiral arms are there?                                            | 4                |
-| 36    | How many spiral arms are there?                                            | more than four   |
-| 37    | How many spiral arms are there?                                            | can’t tell       |
+|  Class/A  | Question                                                                   | Response         |
+| --------- | -------------------------------------------------------------------------- | ---------------- |
+| 1 / B     | Is the galaxy simply smooth and rounded, with no sign of features or disk? | smooth           |
+| 2 / C     | Is the galaxy simply smooth and rounded, with no sign of features or disk? | features or disk |
+| 3 / D     | Is the galaxy simply smooth and rounded, with no sign of features or disk? | star or artifact |
+| 4 / E     | Could this be a disk viewed edge-on?                                       | yes              |
+| 5 / F     | Could this be a disk viewed edge-on?                                       | no               |
+| 6 / G     | Is there a sign of a bar feature through the centre of the galaxy?         | yes              |
+| 7 / H     | Is there a sign of a bar feature through the centre of the galaxy?         | no               |
+| 8 / I     | Is there any sign of a spiral arm pattern?                                 | yes              |
+| 9 / J     | Is there any sign of a spiral arm pattern?                                 | no               |
+| 10 / K    | How prominent is the central bulge, compared with the rest of the galaxy?  | no bulge         |
+| 11 / L    | How prominent is the central bulge, compared with the rest of the galaxy?  | just noticeable  |
+| 12 / M    | How prominent is the central bulge, compared with the rest of the galaxy?  | obvious          |
+| 13 / N    | How prominent is the central bulge, compared with the rest of the galaxy?  | dominant         |
+| 14 / O    | Is there anything odd?                                                     | yes              |
+| 15 / P    | Is there anything odd?                                                     | no               |
+| 16 / Q    | How rounded is it?                                                         | completely round |
+| 17 / R    | How rounded is it?                                                         | in between       |
+| 18 / S    | How rounded is it?                                                         | cigar-shaped     |
+| 19 / T    | Is the odd feature a ring, or is the galaxy disturbed or irregular?        | ring             |
+| 20 / U    | Is the odd feature a ring, or is the galaxy disturbed or irregular?        | lens or arc      |
+| 21 / V    | Is the odd feature a ring, or is the galaxy disturbed or irregular?        | disturbed        |
+| 22 / W    | Is the odd feature a ring, or is the galaxy disturbed or irregular?        | irregular        |
+| 23 / X    | Is the odd feature a ring, or is the galaxy disturbed or irregular?        | other            |
+| 24 / Y    | Is the odd feature a ring, or is the galaxy disturbed or irregular?        | merger           |
+| 25 / Z    | Is the odd feature a ring, or is the galaxy disturbed or irregular?        | dust lane        |
+| 26 / AA   | Does the galaxy have a rounded bulge at its centre? If so, what shape?     | rounded          |
+| 27 / AB   | Does the galaxy have a rounded bulge at its centre? If so, what shape?     | boxy             |
+| 28 / AC   | Does the galaxy have a rounded bulge at its centre? If so, what shape?     | no bulge         |
+| 29 / AD   | How tightly wound do the spiral arms appear?                               | tight            |
+| 30 / AE   | How tightly wound do the spiral arms appear?                               | medium           |
+| 31 / AF   | How tightly wound do the spiral arms appear?                               | loose            |
+| 32 / AG   | How many spiral arms are there?                                            | 1                |
+| 33 / AH   | How many spiral arms are there?                                            | 2                |
+| 34 / AI   | How many spiral arms are there?                                            | 3                |
+| 35 / AJ   | How many spiral arms are there?                                            | 4                |
+| 36 / AK   | How many spiral arms are there?                                            | more than four   |
+| 37 / AL   | How many spiral arms are there?                                            | can’t tell       |
 
 ---
 
