@@ -10,7 +10,8 @@ These morphologies are linked to important astrophysical properties such as stel
 
 In this project, we develop a **deep learning pipeline** to classify galaxies into 37 categories using the Galaxy Zoo dataset.  
 Our approach leverages a **ResNet18 convolutional neural network** with a custom classification head, trained using PyTorch.  
-We also implement **Grad-CAM visualizations** to interpret model predictions and highlight the image regions that drive classification decisions.  
+We also implement **Grad-CAM visualizations** to interpret model predictions and highlight the image regions that drive classification decisions.
+- [Project File](https://doi.org/10.5281/zenodo.17113704)
 
 ---
 
